@@ -25,7 +25,9 @@ SECRET_KEY = 'dg_f&&0zu913@7j3^l#!9=77nfv2h5a=$rhex6q!9pxk9^#=^t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+#using * means all domains are accepted
+#in production explicitly list which domains are allowed
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
